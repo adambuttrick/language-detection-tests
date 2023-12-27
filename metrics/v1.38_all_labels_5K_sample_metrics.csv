@@ -1,0 +1,6 @@
+File,Precision,Recall,F1 Score,F0.5 Score
+../test_results/v1.38_all_labels_5K_sample_lang_detected_consensus.csv,0.9399637516991391,0.8762407602956706,0.9069843698764893,0.9264883212004823
+../test_results/v1.38_all_labels_5K_sample_lang_detected_lingua.csv,0.813,1.0,0.8968560397131825,0.8445875753168501
+../test_results/v1.38_all_labels_5K_sample_lang_detected_lingua-fasttext.csv,0.9776718514801807,0.7935247403787417,0.8760256266157133,0.9343083193478782
+../test_results/v1.38_all_labels_5K_sample_lang_detected_langdetect.csv,0.6468,1.0,0.7855234393976197,0.6959628131187053
+../test_results/v1.38_all_labels_5K_sample_lang_detected_fasttext.csv,0.9348,1.0,0.9663014265040314,0.9471508470454728

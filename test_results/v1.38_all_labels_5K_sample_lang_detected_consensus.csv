@@ -1,4 +1,4 @@
-ror_id,name,label,label_lang,country,consensus_detected_language
+ror_id,name,label,label_lang,country,detected_language
 https://ror.org/04p2sbk06,Panjab University,"பஞ்சாப் பல்கலைக்கழகம், சண்டிகர்",ta,IN,ta
 https://ror.org/00xzb4g06,Center for Strategic Research,Центр стратегических разработок,ru,RU,ru
 https://ror.org/01hwhm419,Hessische Hochschule für Polizei und Verwaltung,Hessian University for Police and Administration,en,DE,en
