@@ -1,7 +1,6 @@
-# README for JSON to CSV Converter
-
 ## Overview
 Converts ROR data dump into a CSV format for testing language detection on ROR labels. Specifically, it extracts the ID, name, labels, language of labels, and country information from every ROR record with a label value.
+
 
 ## Usage
 ```
