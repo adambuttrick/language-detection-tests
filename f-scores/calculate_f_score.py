@@ -66,9 +66,9 @@ def parse_arguments():
 def main():
     args = parse_arguments()
     results_set = load_results_set(args.input)
-    true_pos, false_pos, false_neg, true_neg = calculate_counts(results_set)
-    precision, recall, f1_score, f0_5_score, specificity = calculate_metrics(
-        true_pos, false_pos, false_neg, true_neg)
+    true_pos, false_pos, false_neg = calculate_counts(results_set)
+    precision, recall, f1_score, f0_5_score = calculate_metrics(
+        true_pos, false_pos, false_neg)
     print(f"Precision: {precision}\nRecall: {recall}\nF1 Score: {f1_score}\nF0.5 Score: {f0_5_score}")
     write_to_csv(args.output, precision, recall,
                  f1_score, f0_5_score)
